@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 构建环境与产物
+.buildenv/
+.buildtmp/
+build/
+dist/
+*.spec.bak
+
+# 版本归档（本地保留，不进仓库）
+releases/
+versions/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 临时文件
+_s.png
+_s.png.ok.txt
+selftest.png
+selftest.png.ok.txt
+*.log
+
+# 素材不入库（克隆后用 tools_fetch_emoji.py 重新下载）
+assets/
+
+# 宣传图暂不发布（2026-11-10）
+intro.png
+intro2.png
