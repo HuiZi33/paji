@@ -70,8 +70,8 @@
 仓库不包含 21 MB 的 emoji 图片，克隆后先下载：
 
 ```powershell
-python tools_fetch_emoji.py     # 下载 Noto emoji + 国旗
-python tools_build_thumbs.py    # 生成缩略图图集
+python tools/tools_fetch_emoji.py     # 下载 Noto emoji + 国旗
+python tools/tools_build_thumbs.py    # 生成缩略图图集
 python paji.py                  # 运行
 ```
 
@@ -80,10 +80,10 @@ python paji.py                  # 运行
 ```powershell
 python paji.py                              # 跑源码
 python paji.py --selftest selftest.png      # 无窗口自检
-python tools_build_emoji_list.py            # 生成 emoji 清单
-python tools_make_icon.py                   # 生成图标
-python tools_make_intro.py                  # 生成介绍图
-python compat_test.py                       # 兼容性测试
+python tools/tools_build_emoji_list.py            # 生成 emoji 清单
+python tools/tools_make_icon.py                   # 生成图标
+python tools/tools_make_intro.py                  # 生成介绍图
+python tools/compat_test.py                       # 兼容性测试
 ```
 
 ### 打包
