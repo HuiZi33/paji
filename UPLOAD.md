@@ -66,7 +66,7 @@ licenses/            ← 整个文件夹（4 个 txt）
 2. 打开资源管理器，进入 `C:\dsh-work\Paji`
 3. **框选第 1 节列出的文件**（含 `licenses` 文件夹），拖进浏览器
 4. 等进度条走完（28 个文件很快）
-5. 底部 Commit changes 填：`Paji v1.8.6-beta: initial public release`
+5. 底部 Commit changes 填：`Paji v1.8.7-beta: initial public release`
 6. 点 **Commit changes**
 
 > 网页上传支持拖文件夹，`licenses/` 直接拖进去即可，层级会保留。
@@ -84,10 +84,10 @@ licenses/            ← 整个文件夹（4 个 txt）
 ## 5. 发 Release（放 exe）
 
 1. 仓库页右侧 **Releases → Create a new release**
-2. **Choose a tag** → 输入 `v1.8.6-beta` → 点 "Create new tag"
-3. Release title：`Paji v1.8.6-beta`
-4. 描述里粘贴 README 的「v1.8.6 / v1.8.5 / v1.8.4」段落
-5. 把本机 `C:\dsh-work\Paji\dist\Paji v1.8.6-beta.exe`（42.0 MB）拖进 **Attach binaries**
+2. **Choose a tag** → 输入 `v1.8.7-beta` → 点 "Create new tag"
+3. Release title：`Paji v1.8.7-beta`
+4. 描述里粘贴 README 的「功能」段落
+5. 把本机 `C:\dsh-work\Paji\dist\Paji v1.8.7-beta.exe`（42.0 MB）拖进 **Attach binaries**
 6. 点 **Publish release**
 
 > GitHub 单文件上限 2 GB，42 MB 没问题。
