@@ -4,7 +4,7 @@ cd /d "%~dp0"
 title Paji build
 
 set "PY=%~dp0.buildenv\Scripts\python.exe"
-set "APPNAME=Paji v1.8.6-beta"
+set "APPNAME=Paji v1.8.7"
 set "NEUTRAL=%~dp0.buildtmp"
 
 if exist "%PY%" goto deps
@@ -29,11 +29,11 @@ echo [2/7] installing PyInstaller + Pillow ...
 if errorlevel 1 goto fail
 
 echo [3/7] fetching emoji assets ...
-"%PY%" tools_fetch_emoji.py
+"%PY%" tools\tools_fetch_emoji.py
 if errorlevel 1 goto fail
 
 echo [4/7] building thumbnail atlas ...
-"%PY%" tools_build_thumbs.py
+"%PY%" tools\tools_build_thumbs.py
 if errorlevel 1 goto fail
 
 echo [5/7] staging sources into .buildtmp ...
@@ -58,11 +58,11 @@ copy /y "%NEUTRAL%\dist\%APPNAME%.exe" "dist\%APPNAME%.exe" >nul
 rmdir /s /q "%NEUTRAL%"
 
 echo [7/8] archiving every build into releases\ ...
-"%PY%" tools_archive.py
+"%PY%" tools\tools_archive.py
 if errorlevel 1 goto fail
 
 echo [8/8] snapshotting sources into versions\ ...
-"%PY%" tools_snapshot.py
+"%PY%" tools\tools_snapshot.py
 if errorlevel 1 goto fail
 
 echo.
