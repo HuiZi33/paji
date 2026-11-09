@@ -86,11 +86,32 @@ licenses/            ← 整个文件夹（4 个 txt）
 1. 仓库页右侧 **Releases → Create a new release**
 2. **Choose a tag** → 输入 `v1.8.7` → 点 "Create new tag"
 3. Release title：`Paji v1.8.7`
-4. 描述里粘贴 README 的「功能」段落
+4. 描述只写**本版变化**（见下方规范），不要罗列功能
 5. 把本机 `C:\dsh-work\Paji\dist\Paji v1.8.7.exe`（42.0 MB）拖进 **Attach binaries**
 6. 点 **Publish release**
 
 > GitHub 单文件上限 2 GB，42 MB 没问题。
+
+### 发布说明规范（2026-11-10 起）
+
+**只写「这一版改了什么」，不写功能清单** —— 功能在 README 里维护，Release 里重复只是噪音。
+
+格式：
+
+`markdown
+## 本版改进
+- 修复：xxx
+- 优化：xxx
+- 调整：xxx
+
+## 安装
+下载 exe 双击即可，绿色免安装。
+
+## 许可
+代码 MIT；素材许可见 THIRD-PARTY-NOTICES.md。
+`
+
+控制在 10 行以内；功能点（emoji 数量、导出格式等）不要出现在 Release 里。
 
 ---
 
