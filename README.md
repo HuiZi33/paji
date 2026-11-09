@@ -1,4 +1,4 @@
-# Paji · 啪叽 v1.8.7-beta 😻
+# Paji · 啪叽 v1.8.7 😻
 
 > Windows 表情工坊：打开照片或新建空白画布，往上贴 emoji / PNG 贴纸，导出原图分辨率。
 
@@ -88,7 +88,7 @@ python compat_test.py                       # 兼容性测试
 .buildenv\Scripts\python.exe -m PyInstaller --noconfirm --clean "Paji.spec"
 ```
 
-产物 `dist\Paji v1.8.7-beta.exe`（42 MB），打包后自动归档到 `releases\` 与 `versions\`。
+产物 `dist\Paji v1.8.7.exe`（42 MB），打包后自动归档到 `releases\` 与 `versions\`。
 
 ---
 
@@ -111,4 +111,4 @@ python compat_test.py                       # 兼容性测试
 - **素材**：Noto Color Emoji（SIL OFL 1.1）、国旗（公有领域）、图标 😻（OFL 1.1）
 - 完整说明见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)
 
-*Paji v1.8.7-beta · 2026-11-10*
+*Paji v1.8.7 · 2026-11-10*
